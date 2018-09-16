@@ -1,6 +1,6 @@
 .. _meshio: https://github.com/nschloe/meshio
 
-Create & Convert `Cubed-sphere Grids` (CSGrid) to Unstructured Meshes
+Create & Convert *Cubed-sphere Grids* (CSGrid) to Unstructured Meshes
 =====================================================================
 
 
@@ -12,12 +12,11 @@ and I/O is handled by `meshio`_.
 
 This package was created for education/research purpose. Personally, I use this
 to study the grid convergence for data transferring between CSGrid and
-`spherical centroidal Voronoi tessellations` (SCVT).
+*spherical centroidal Voronoi tessellations* (SCVT).
 
 
 .. image:: demo.png
-    :scale: 50 %
-    :name: demo
+    :scale: 30 %
     :align: center
 
 Installation
@@ -74,7 +73,7 @@ Once you have installed the package, open the terminal and type:
       -v, --version         Check version
 
 If you got ``command not found: csgrid2unstr``, make sure ``csgrid2unstr`` is
-in the ``$PATH``.
+in your ``$PATH``.
 
 There are two must-provided parameters, i.e. ``-n`` (``--size``) and ``-o``
 (``--output``). The former is to define the number of intervals of a square
@@ -86,7 +85,7 @@ to provide the output filename (**without extension**). For instance:
     $ csgrid2unstr -n 20 -o demo
 
 will construct a CSGrid of 400 quadrilaterals per face, convert the grid into
-an unstructured mesh and store it in ``demo.vtk`` (see :ref:`demo`).
+an unstructured mesh and store it in ``demo.vtk``.
 
 You can create a serial of uniform refined grids by adding ``-r``
 (``--refine``) switch, e.g.:
