@@ -3,6 +3,10 @@
 Create & Convert *Cubed-sphere Grids* (CSGrid) to Unstructured Meshes
 =====================================================================
 
+.. image:: https://img.shields.io/pypi/v/csgrid2unstr.svg
+    :target: https://pypi.org/project/csgrid2unstr/
+.. image:: https://img.shields.io/pypi/l/csgrid2unstr.svg
+    :target: https://pypi.org/project/csgrid2unstr/
 
 Introduction
 ------------
