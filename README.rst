@@ -16,7 +16,7 @@ to study the grid convergence for data transferring between CSGrid and
 
 
 .. image:: demo.png
-    :scale: 30 %
+    :scale: 10 %
     :align: center
 
 Installation
